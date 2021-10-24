@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lukas Richters</title>
 </head>
 <body>
@@ -19,10 +20,10 @@
     </nav>
     <section>
         <h2>Posts</h2>
-        <article>
-            <img class="post-img" src="/ecosia.jfif" alt="A black pawn on a wooden chess board" width="100">
+        <article class="blog-post">
+            <img class="post-img" src="/ecosia.jfif" alt="The Ecosia logo" width="100">
             <h3>Ecosia</h3>
-            <h4>Published on <time datetime="2021-10-08">10/8/21</time>, by <a href="/about.html" rel="author">Lukas Richters</a></h4>
+            <h4>Published on <time datetime="2021-10-08">October 8th, 2021</time>, by <a href="/about.html" rel="author">Lukas Richters</a></h4>
             <p>
                 About an hour ago, I learned about a search engine called <a href="https://www.ecosia.org/">Ecosia</a>. 
                 I'm still freaking 
@@ -48,10 +49,10 @@
             </p>
         </article>
         
-        <article>
+        <article class="blog-post">
             <img class="post-img" src="/pawn.png" alt="A black pawn on a wooden chess board" width="100">
             <h3>My First Post</h3>
-            <h4>Published on <time datetime="2021-10-08">10/8/21</time>, by <a href="/about.html" rel="author">Lukas Richters</a></h4>
+            <h4>Published on <time datetime="2021-10-08">October 8th, 2021</time>, by <a href="/about.html" rel="author">Lukas Richters</a></h4>
             <p>
                 This blog was started as part of a school assignment for a web development class. 
                 However, I see no reason why it should not continue afterward. To that end, I 
@@ -75,7 +76,7 @@
                 <a href="https://thechessworld.com/articles/openings/chess-statistics-top-10-best-openings-for-white-and-black/">this</a> 
                 site.
             </p>
-            <table>
+            <table class="center">
                 <tr>
                     <th>Opening</th>
                     <th>White win %</th>
@@ -110,7 +111,7 @@
         </article>
     </section>
     <section>
-        <form>
+        <form id='subscribe'>
             <label>Subscribe to our newsletter:
                 <input type="text">
             </label>
